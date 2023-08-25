@@ -1,0 +1,199 @@
+.container-fluid{
+    margin: 0%;
+    
+}
+
+.navbar{
+    background-color:#063977 ;
+    color:white;
+}
+
+ul>li>.nav-link{
+    color:white;
+}
+ul>li>.nav-link:hover{
+    color:red;
+}
+.btn{
+    margin-right:10px;
+}
+.d-block{
+    margin-right:10px;
+}
+
+.text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(52, 52, 220);
+    font-size: xx-large;
+    text-align: left;
+    margin:50px 0px 0px 0px;
+    padding: 0%;
+}
+
+.sobre-compra{
+    height:120px;
+    min-height: 150px;
+    padding: 10px;
+    
+}
+.sobre-compra .contenedor{
+    max-width: 1200px;
+    text-align: center;
+    float:center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.seccion-oscura{
+    background-color: #1b1b32;
+    color:white
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.pasocompra{
+    padding: 40px 40px 60px 40px;
+}
+
+.pasocompra-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin:10px 0;
+}
+.pasocompra i{
+    font-size: 2.5rem;
+    color:#0097fd;
+    background-color: #000000;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+.pasocompra .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.3s ease-in;
+}
+.pasocompra .columna:hover{
+    color:#00f2ff;
+    background-color:#092781;
+
+}
+.seccion-clara{
+    color:black;
+    background-color:white;
+}
+
+.badges-contenedor{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0; 
+}
+
+.badges{
+    margin:5px;
+}
+
+.contacto .container{
+    max-width: 1000px;
+    min-height:200px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color:#0097fd;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 1px white;
+}
+.contacto .row{
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+.contacto .descripcion{
+    font-size: 1.2rem;
+}
+.contacto button{
+    color:white;
+    font-weight: bold;
+    background-color: transparent;
+    border:2px solid white;
+    padding: 1.25em 2em;
+    margin:10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover{
+    background-color: white;
+    color:black;
+}
+.contacto button i{
+    color:white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover i{
+    color:black;
+}
+
+footer{
+    min-height: 500px;
+}
+.footer-logo{
+    height: 120px;
+    width: 120px;
+    margin:10px;
+    border-radius: 15px;
+}
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.icono-redes a{
+    width: 50px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin:10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition:all 0.2s ease-in;
+}
+.icono-redes i{
+    color:white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+
+}
+.icono-redes a:hover{
+    background-color: white;
+    color:#00f2ff;
+    border: 2px solid rgb(13,110,253);
+}
+.icono-redes a:hover i{
+    color:#00f2ff;
+}
+.derecho-autor{
+    font-size: 13px;
+    color:#c1ffff;
+    padding: 20px;
+
+}
+.color1 {color: #002c62;}
+.color2 {color: #2c4ca8;}
+.color3 {color: #0097fd;}
+.color4 {color: #00f2ff;}
+.color5 {color: #c1ffff;}

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tienda Virtual - encuentra todos los electrodomésticos a los mejores precios"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="robots" content="index, follow"/>
+    <title>TECNÓPOLIS/Tienda Virtual</title>
+    <link rel="shortcut icon" href="assets/images/logos/real_logo.jpg">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head> 
+  <body>
+    <!--Encabezado-->
+    <header>
+      <div class="container-fluid padding-0"  >
+           <div class="row">
+                     <img src="assets/images/centro/logo central.png" class="rounded float-end"  alt="..."> 
+            </div>
+      </div>
+    </header>
+    <!--Navegador-->
+    <nav class="navbar navbar-fluid navbar-expand-lg ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menú
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pages/productos.html">Catalogo</a></li>
+                  <li><a class="dropdown-item" href="#">Carrito</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="pages/perfil.html">Registrar forma de pago</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿que buscas?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle" _mstalt="33306">
+            </a>
+            <ul class="dropdown-menu text-small " style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 34px, 0px);" data-popper-placement="bottom-end">
+              <li><a class="dropdown-item" href="#">Mi Perfil</a></li>
+              <li><a class="dropdown-item" href="#">Configuraciones</a></li>
+              <li><a class="dropdown-item" href="#">Progresos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Cerrrar Sesión</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--Carrusel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/centro/banner1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/centro/banner2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/centro/banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Sobre Compra-->
+    <section class="sobre-compra seccion-oscura">
+      <div class="contenedor">
+          <h2 class="seccion-titulo"> Compra Seguro en Tecnopolis</h2>
+          <p class="seccion-texto">desde cualquier ciudad de las siguientes maneras:</p>
+      </div>
+    </section>
+    <section class="pasocompra seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <div class="columna col-12 col-md-4">
+              <i class="bi bi-whatsapp"></i>
+              <p class="pasocompra-titulo">1. Contactar a un Agente</p>
+              <p class="">cotiza tus productos en tecnópolis con ayuda de nuestros asesores.</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Contactar</span>
+              </div>
+          </div>
+          <div class="columna col-12 col-md-4">
+              <i class="bi bi-cart4"></i>
+              <p class="pasocompra-titulo">2. Hazlo Tú Mismo</p>
+              <p class="">Compra el producto en Tecnópolis, añadelos al carrito y envianos tu dirección.</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Aprende Cómo</span>
+              </div>
+          </div>
+          <div class="columna col-12 col-md-4">
+              <i class="bi bi-coin"></i>
+              <p class="pasocompra-titulo">3. Pide tu Cotización</p>
+              <p class="">Puedes pedir tu cotización de los productos que quieras de Tecnópolis enviandonos tu nombre y referencia.</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Cotizar</span>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--contactos-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos! <br>
+              065 - 252098
+
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctanos para empezar con tus compras y ofrecerte beneficios.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:jimmyobregonsanchez@gmail.com">
+                <button type="button">
+                  Contacto 
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--pie de pagina-->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo "  src="assets/images/logos/real_logo.jpg " alt="">
+      <p class="footer-texto text-center">Más cerca de ti, al alcance de un botón <br> ¡creciendo siempre contigo!</p>
+      <div class="icono-redes d-flex flex-wrap align-items-center justify-content-center">
+        <a href=""><i class="bi bi-twitter"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-youtube"></i></a>
+        <a href=""><i class="bi bi-envelope"></i></a>
+      </div>
+      <div class="derecho-autor">
+        creado por Tecnópolis 2023 &#169;
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

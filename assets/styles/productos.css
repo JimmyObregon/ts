@@ -1,0 +1,21 @@
+.navbar{
+    background-color:#063977 ;
+    color:white;
+}
+
+ul>li>.nav-link{
+    color:white;
+}
+ul>li>.nav-link:hover{
+    color:red;
+}
+.btn{
+    margin-right:10px;
+}
+.d-block{
+    margin-right:10px;
+}
+
+.nav-pills li a:hover{
+    background-color: blue;
+}
